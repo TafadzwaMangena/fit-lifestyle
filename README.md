@@ -4,7 +4,17 @@
 
 ## User Experience (UX)
 
-- ### User stories
+- ## User stories
+
+ - #### External User's Goal;
+  - Site uses are new to fitness and are interested in wokout routines and meal preps.
+ - #### Site Owner's Goal;
+  - The goal of the site is to provide a reliable source of information and encourage beginners to exercise and eat healthy.
+ - #### Features Included;
+  - Home workouts; Gym workouts,
+  - Meal prepping,
+  - Supporting images and social media links.
+
     - #### First Time Visitor Goals
         1. Text
         2. Text
