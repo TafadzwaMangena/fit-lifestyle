@@ -36,6 +36,22 @@
  6. Balsamiq Frameworks:
  7. Pixels.com:
 
+## Testing
+I will use Markup Validator and W3C CSS Validator Sevices to validate every page of the project and add the results below:
+ - W3C Makup Validator - Results
+ - W3C CSS Validator - Results
+
+### Unfixed Bugs
+Text
+
+## Deployment
+ - The site was deployed to GitHub pages. The steps to deploy are as follows:
+   - In the GitHub repository, navigate to the Settings tab
+   - From the source section drop-down menu, select the Master Branch
+   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - 
+
 ## Credits
 ### Code
    - This project was ceated using a full template provided by Code Institute.

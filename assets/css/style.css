@@ -2,14 +2,24 @@ header {
     background-color: blueviolet;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
 nav {
-    background-color: brown;
+    background-color: rgb(215, 218, 248);
 }
 
 main {
-    background-color: aqua;
+    background-color: #fff;
+    flex: 1 0 auto;
 }
 
 footer {
     background-color: blueviolet;
+    flex-shrink: 0;
 }
