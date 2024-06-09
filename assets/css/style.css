@@ -107,7 +107,27 @@ main {
 
 /* Hero section */
 .hero {
-    background: url(../images/hero_image.jpg);
+    background: url(../images/hero_image.webp) no-repeat center center/cover;
+    height: 500px;
+    width: 100%;
+}
+
+.hero-text {
+    background-color: rgba(174, 0, 255, .10);
+    /* Gave bg color same height as bg image to give it a purple tint */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration-style: solid;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-text h2 {
+    
 }
 
 /* Footer */
@@ -120,7 +140,7 @@ footer {
     align-items: center;
     padding: 0 2rem;
     text-align: center;
-   
+    
 }
 
 .social-networks {
