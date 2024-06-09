@@ -63,8 +63,8 @@ header img {
 .menu li{
     list-style-type: none;
     display: flex;
-    justify-content: end;
-    padding: 1rem;
+    justify-content: center;
+    padding: 0.25rem;
     display: inline-block;
 }
 
