@@ -1,11 +1,14 @@
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -13,6 +16,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Header */
 header {
     background-color: blueviolet;
     color: #fff;
@@ -64,6 +68,7 @@ header img {
     display: inline-block;
 }
 
+/* Navbar styles with dropdown toggle */
 nav {
 
     position: absolute;
@@ -76,6 +81,7 @@ nav {
     display: none;
 }
 
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -88,10 +94,13 @@ nav {
     font-size: 2rem;
 }
 
+/* Main content */
 main {
+    /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
 }
 
+/* Footer */
 footer {
     background-color: blueviolet;
     flex-shrink: 0;
