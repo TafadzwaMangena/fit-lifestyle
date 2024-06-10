@@ -126,8 +126,9 @@ main {
     text-align: center;
 }
 
-.hero-text h2 {
-    
+.motivation h2 {
+    letter-spacing: normal;
+    text-align: center;
 }
 
 /* Footer */
