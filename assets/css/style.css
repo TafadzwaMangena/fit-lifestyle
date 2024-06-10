@@ -127,13 +127,19 @@ main {
 }
 
 .motivation img {
-    height: auto;
-    width: 100px; 
+    height: 100px;
+    width: auto; 
 } 
 
 .motivation h2 {
     letter-spacing: normal;
     text-align: center;
+}
+
+.workout-benefits {
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Footer */
