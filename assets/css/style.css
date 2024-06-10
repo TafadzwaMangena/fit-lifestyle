@@ -126,12 +126,15 @@ main {
     text-align: center;
 }
 
+.motivation img {
+    height: auto;
+    width: 100px; 
+} 
+
 .motivation h2 {
     letter-spacing: normal;
     text-align: center;
 }
-
-.physical-benefits
 
 /* Footer */
 footer {
