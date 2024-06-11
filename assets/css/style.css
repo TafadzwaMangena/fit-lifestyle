@@ -127,6 +127,14 @@ main {
     text-align: center;
 }
 
+.motivation {
+    padding: 1rem 1rem;
+}
+
+.motivation li {
+    padding: 1rem;
+}
+
 .motivation img {
     height: 25vh;
     width: auto; 
@@ -151,17 +159,24 @@ main {
     text-decoration-line: underline;
 }
 
-.workout-benefits h2 {
-    padding: 0.25rem 1rem;
+.healthy-meals-benefits h2, h3 {
+    text-decoration: solid;
+    letter-spacing: normal;
+    text-align: left;
+    text-decoration-line: underline;
 }
 
-.physical-benefits {
+.workout-benefits h2 {
+    padding: 0.5rem 0.5rem;
+}
+
+ .physical-benefits {
     padding: 1rem 1rem;
 }
 
 .mental-benefits {
     padding: 1rem 1rem;
-}
+} 
 
 /* Footer */
 footer {
