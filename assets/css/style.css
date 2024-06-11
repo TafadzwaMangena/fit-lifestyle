@@ -79,6 +79,7 @@ nav {
     top: 100%;
     color: #fff;
     display: none;
+    position: absolute;
 }
 
 /* Nav toggle */
@@ -189,6 +190,11 @@ footer {
     padding: 0 2rem;
     text-align: center;
     
+}
+
+/* Hide irrelevant h1 */
+.social-media h1 {
+    display: none;
 }
 
 .social-networks {
