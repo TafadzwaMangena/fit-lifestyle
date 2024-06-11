@@ -110,6 +110,7 @@ main {
     background: url(../images/hero_image.webp) no-repeat center center/cover;
     height: 500px;
     width: 100%;
+    position: relative;
 }
 
 .hero-text {
@@ -127,7 +128,7 @@ main {
 }
 
 .motivation img {
-    height: 100px;
+    height: 25vh;
     width: auto; 
 } 
 
@@ -138,8 +139,28 @@ main {
 
 .workout-benefits {
     letter-spacing: normal;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    /*flex direction - column to keep the content in div vertical 
+    flex-direction: column; */
+}
+
+.workout-benefits h2, h3 {
+    text-decoration: solid;
+    letter-spacing: normal;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.workout-benefits h2 {
+    padding: 0.25rem 1rem;
+}
+
+.physical-benefits {
+    padding: 1rem 1rem;
+}
+
+.mental-benefits {
+    padding: 1rem 1rem;
 }
 
 /* Footer */
@@ -181,4 +202,12 @@ footer {
 .social-networks li{
     display: inline-block;
     
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
