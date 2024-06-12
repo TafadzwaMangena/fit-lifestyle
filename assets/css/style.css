@@ -31,7 +31,11 @@ header {
 }
 
 .active {
-    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    color: blueviolet;
+    border-bottom: 1px solid #000000;
+    padding: 0 0.5em;
+    font-weight: bold;
 }
 
 .logo {
@@ -241,13 +245,13 @@ footer {
     header {
         display: inline-block;
     }
-    
+
     nav {
         display: flex;
         justify-content: space-evenly;
-        
         padding-right: 1rem;
     }
+    
     .nav-toggle-label {
         display: none;
     }
