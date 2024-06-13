@@ -184,6 +184,10 @@ main {
     list-style-type: none;
 }
 
+video {
+    width: 200px;
+}
+
 /* Footer */
 footer {
     background-color: blueviolet;
