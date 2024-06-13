@@ -176,13 +176,22 @@ main {
     padding: 0.5rem 0.5rem;
 }
 
- .physical-benefits {
+ .physical-benefits ul{
+    padding: 1rem 1rem;
+    list-style-type: none;
+}
+
+.mental-benefits ul {
+    list-style-type: none;
+} 
+
+.workout-routines {
     padding: 1rem 1rem;
 }
 
-.mental-benefits {
-    padding: 1rem 1rem;
-} 
+.workout-routines ul {
+    list-style-type: none;
+}
 
 /* Footer */
 footer {
@@ -235,24 +244,5 @@ footer {
     #photos {
         column-count: 2;
         column-gap: 0;
-    }
-}
-
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    /* Header */
-
-    header {
-        display: inline-block;
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-evenly;
-        padding-right: 1rem;
-    }
-    
-    .nav-toggle-label {
-        display: none;
     }
 }
