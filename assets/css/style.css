@@ -192,7 +192,16 @@ video {
     width: 200px;
 }
 
-.meal-prep-table {}
+.meal-preps {
+    padding: 1rem;
+}
+
+.meal-preps h2 {
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: solid;
+    text-decoration-line: underline;
+}
 
 table {
     background: rgb(225, 209, 241);
