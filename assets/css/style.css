@@ -44,7 +44,9 @@ header {
     align-items: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -65,7 +67,7 @@ header img {
     padding: 10px;
 }
 
-.menu li{
+.menu li {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -139,8 +141,8 @@ main {
 
 .motivation img {
     height: 25vh;
-    width: auto; 
-} 
+    width: auto;
+}
 
 .motivation h2 {
     letter-spacing: normal;
@@ -154,27 +156,29 @@ main {
     flex-direction: column; */
 }
 
-.workout-benefits h2, h3 {
+.workout-benefits h2,
+h3 {
     text-decoration: solid;
     letter-spacing: normal;
     text-align: left;
     text-decoration-line: underline;
 }
 
-.healthy-meals-benefits h2, h3 {
+.healthy-meals-benefits h2,
+h3 {
     text-decoration: solid;
     letter-spacing: normal;
     text-align: left;
     text-decoration-line: underline;
 }
 
- .physical-benefits ul{
+.physical-benefits ul {
     list-style-type: none;
 }
 
 .mental-benefits ul {
     list-style-type: none;
-} 
+}
 
 .workout-routines {
     padding: 1rem 1rem;
@@ -188,9 +192,7 @@ video {
     width: 200px;
 }
 
-.meal-prep-table {
-
-}
+.meal-prep-table {}
 
 table {
     background: rgb(225, 209, 241);
@@ -198,12 +200,14 @@ table {
     width: 100%;
 }
 
-caption, td, th {
+caption,
+td,
+th {
     padding: 1rem;
 }
 
 caption {
-    background-color: blueviolet;
+    background-color: rgb(195, 158, 229);
     color: #fff;
     font-size: 1.2rem;
     font-weight: bold;
@@ -220,7 +224,7 @@ footer {
     align-items: center;
     padding: 0 2rem;
     text-align: center;
-    
+
 }
 
 /* Hide irrelevant h1 */
@@ -233,7 +237,7 @@ footer {
     display: inline-block;
     align-items: center;
     text-align: center;
-   
+
 }
 
 .social-media {
@@ -241,25 +245,55 @@ footer {
     justify-content: space-evenly;
 }
 
-.social-media li{
+.social-media li {
     display: flex;
-    
+
 }
 
-.social-networks i{
+.social-networks i {
     color: #fff;
     padding: 5%;
 }
 
-.social-networks li{
+.social-networks li {
     display: inline-block;
-    
+
 }
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-    #photos {
-        column-count: 3;
-        column-gap: 0;
+@media screen and (max-width: 780px) {
+    th {
+        display: none;
+        padding: 0.25rem;
     }
+
+    td {
+        display: block;
+    }
+
+    td::before {
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    td:nth-of-type(1)::before {
+        content: "day:";
+    }
+
+    td:nth-of-type(2)::before {
+        content: "breakfast:";
+    }
+
+    td:nth-of-type(3)::before {
+        content: "lunch:";
+    }
+
+    td:nth-of-type(4)::before {
+        content: "evening meal:";
+    }
+
+    td:nth-of-type(5)::before {
+        content: "snacks:";
+    }
+
 }
