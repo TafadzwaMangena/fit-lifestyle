@@ -188,6 +188,28 @@ video {
     width: 200px;
 }
 
+.meal-prep-table {
+
+}
+
+table {
+    background: rgb(225, 209, 241);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+caption, td, th {
+    padding: 1rem;
+}
+
+caption {
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 /* Footer */
 footer {
     background-color: blueviolet;
