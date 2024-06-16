@@ -244,12 +244,37 @@ tr:nth-of-type(2n) {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* height: 100vh; */
+    /* text-align: center; */
 }
 
 /* Adding opacity to form to make it more visible */
 .signup-form {
     background-color: rgba(110, 66, 151, 0.6);
     padding: 20px;
+    box-shadow: 0 15px 20px #fff;
+    display: block;
+}
+
+label {
+    width: 95%;
+    color: rgb(238, 234, 242);
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+input, textarea {
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+}
+
+.note{
+    font-size: 14px;
+    font-style: italic;
+    padding: 10px;
 }
 
 /* Footer */
