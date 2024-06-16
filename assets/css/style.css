@@ -237,6 +237,13 @@ tr:nth-of-type(2n) {
 .signup-page {
     background-image: url("../images/Sign_up_bg.webp");
     background-size: cover;
+    background-position: 50%;
+    flex-grow: 1;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer */
