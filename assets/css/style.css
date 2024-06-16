@@ -246,6 +246,7 @@ tr:nth-of-type(2n) {
     align-items: center;
 }
 
+/* Adding opacity to form to make it more visible */
 .signup-form {
     background-color: rgba(110, 66, 151, 0.6);
     padding: 15px;
