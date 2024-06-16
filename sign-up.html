@@ -26,7 +26,7 @@
                 <h1>Fit Lifestyle</h1>
             </a>
         </div>
-        
+
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
@@ -37,7 +37,7 @@
                 <li><a href="sign-up.html" class="active">Sign Up</a></li>
             </ul>
         </nav>
-   
+
     </header>
 
     <!--Main Content-->
@@ -49,8 +49,19 @@
                 <p><strong>Note:</strong> It is totally free to be a member.</p>
                 <br>
                 <br>
-                <label for="first-name">First Name</label>
-                <input type="text" name="first-name" placeholder="Enter your First name" id="first-name" required>
+                <label for="first-name">First Name: </label>
+                <input type="text" name="first-name" placeholder="Enter your First name" id="first-name" required />
+                <br>
+                <label for="last-name">Last Name: </label>
+                <input type="text" name="last-name" placeholder="Enter your Last name" id="last-name" required />
+                <br>
+                <label for="age">Age</label>
+                <input type="number" name="age" placeholder="Age" step="2" min="18" max="99" id="age" />
+                <br>
+                <label for="email-address">Email Address: </label>
+                <input type="email" name="email-address" placeholder="Enter your Email Address" id="email-address"
+                    required />
+                <br>
             </form>
         </section>
     </main>
