@@ -277,6 +277,16 @@ input, textarea {
     padding: 10px;
 }
 
+.note a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.note a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
 /* Footer */
 footer {
     background-color: blueviolet;
