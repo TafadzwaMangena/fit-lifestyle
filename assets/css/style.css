@@ -287,6 +287,23 @@ input, textarea {
     color: blue;
 }
 
+button {
+    margin: 5px 10px;
+    padding: 15px;
+    /* width: 100%; */
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: blueviolet;
+}
+
+button:hover {
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    background-color: #fff;
+}
+
 /* Footer */
 footer {
     background-color: blueviolet;
