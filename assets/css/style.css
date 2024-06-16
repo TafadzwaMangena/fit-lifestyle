@@ -234,6 +234,11 @@ tr:nth-of-type(2n) {
     background-color: rgb(204, 167, 239);
 }
 
+.signup-page {
+    background-image: url("../images/Sign_up_bg.webp");
+    background-size: cover;
+}
+
 /* Footer */
 footer {
     background-color: blueviolet;
