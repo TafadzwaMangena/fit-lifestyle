@@ -41,7 +41,7 @@ header {
 .logo {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 h1,
@@ -86,7 +86,7 @@ nav {
     top: 100%;
     color: #fff;
     display: none;
-    position: absolute;
+    align-items: flex-end;
 }
 
 /* Nav toggle */
@@ -350,6 +350,7 @@ footer {
 
 }
 
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (max-width: 780px) {
     th {
@@ -392,5 +393,4 @@ footer {
     td:nth-of-type(5)::before {
         content: "snacks:";
     }
-
 }
