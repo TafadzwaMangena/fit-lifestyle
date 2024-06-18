@@ -58,6 +58,7 @@ header a {
 
 header h1 {
     display: inline-block;
+    /*To make the FIT Lifestyle text in the center position */
     padding-top: 33px;
 }
 
@@ -356,8 +357,33 @@ footer {
 
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
+/* Media query: tablets and larger (843px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 
+    #menu {
+        display: flex;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (max-width: 780px) {
