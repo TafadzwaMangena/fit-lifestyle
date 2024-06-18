@@ -27,7 +27,7 @@ header {
     align-items: center;
     padding: 0.6rem;
     z-index: 99;
-    box-shadow: 0 3px 3px rgb(168, 93, 191);
+    box-shadow: 0 2px 20px #fff;
 }
 
 .active {
@@ -118,6 +118,7 @@ main {
 /* Hero section */
 .hero {
     background: url(../images/hero_image.webp) no-repeat center center/cover;
+    background-position: 70%;
     height: 500px;
     width: 100%;
     position: relative;
@@ -387,6 +388,11 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    .hero {
+        background-position: 50%;
+
+     }
 }
 
 /* Media query: large or landscape phones (576px and up) */
