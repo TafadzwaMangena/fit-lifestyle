@@ -298,6 +298,11 @@ button {
     background-color: blueviolet;
 }
 
+.send-clear-buttons {
+    display: flex;
+    justify-content: center;
+}
+
 button:hover {
     border: 1px solid blueviolet;
     color: blueviolet;
