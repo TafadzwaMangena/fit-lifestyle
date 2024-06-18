@@ -311,6 +311,10 @@ button:hover {
     background-color: #fff;
 }
 
+.hide {
+    display: none;
+}
+
 /* Footer */
 footer {
     background-color: blueviolet;
