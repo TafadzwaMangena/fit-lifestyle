@@ -263,7 +263,7 @@ tr:nth-of-type(2n) {
     margin: 5px 0;
 } 
 
-input, textarea {
+.input{
     height: 40px;
     width: 95%;
     padding: 0 10px;
