@@ -256,12 +256,12 @@ tr:nth-of-type(2n) {
     display: block;
 }
 
-label {
+.input {
     width: 95%;
     color: rgb(238, 234, 242);
     font-weight: bold;
     margin: 5px 0;
-}
+} 
 
 input, textarea {
     height: 40px;
