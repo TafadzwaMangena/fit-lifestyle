@@ -52,53 +52,63 @@
                 <br>
                 <br>
                 <div class="form-content">
-                <label for="first-name">First Name: </label>
-                <input type="text" name="first-name" placeholder="Enter your First name" class="input" id="first-name" required>
-                <br>
-                <label for="last-name">Last Name: </label>
-                <input type="text" name="last-name" placeholder="Enter your Last name" class="input" id="last-name" required>
-                <br>
-                <label for="age">Age</label>
-                <input type="number" name="age" placeholder="Age" step="2" min="18" max="99" id="age" class="input" >
-                <br>
-                <br>
-                <div class="gender-buttons">
-                    <p><strong>Gender</strong></p>
-                    <div>
-                        <label for="male">Male</label>
-                        <input type="radio" name="gender" id="male" value="male" required checked>
+                    <div class="user-input-box">
+                        <label for="first-name">First Name: </label>
+                        <input type="text" name="first-name" placeholder="Enter your First name" class="input"
+                            id="first-name" required>
                     </div>
-                    <div>
-                        <label for="female">Female</label>
-                        <input type="radio" name="gender" id="female" value="female" required>
+                    <div class="user-input-box">
+                        <label for="last-name">Last Name: </label>
+                        <input type="text" name="last-name" placeholder="Enter your Last name" class="input"
+                            id="last-name" required>
                     </div>
-                </div>
-                <br>
-                <p><strong>Contact information</strong></p>
-                <label for="phone-number">Phone Number</label>
-                <input type="number" name="phone-number" placeholder="0123456789" class="input" id="phone-number">
-                <br>
-                <label for="email-address">Email Address: </label>
-                <input type="email" name="email-address" placeholder="Enter your Email Address" class="input" id="email-address"
-                    required>
-                <br>
-                <br>
-                <label for="feedback"><strong>Feedback</strong></label>
-                <br>
-                <textarea class="input" id="feedback" name="feedback" cols="50" rows="5"
-                    placeholder="Please let us know how we can improve this website">
+                    <div class="user-input-box">
+                        <label for="age">Age</label>
+                        <input type="number" name="age" placeholder="Age" step="2" min="18" max="99" id="age"
+                            class="input">
+                    </div>  
+                    <div class="user-input-box">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="number" name="phone-number" placeholder="0123456789" class="input"
+                            id="phone-number">
+                    </div>                  
+                    <div class="user-input-box">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="number" name="phone-number" placeholder="0123456789" class="input"
+                            id="phone-number">
+                    </div>
+                    <div class="user-input-box">
+                        <label for="email-address">Email Address: </label>
+                        <input type="email" name="email-address" placeholder="Enter your Email Address" class="input"
+                            id="email-address" required>
+                    </div>
+                    <div class="gender-buttons">
+                        <p><strong>Gender</strong></p>
+                        <div>
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="male" value="male" required checked>
+                        </div>
+                        <div>
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="female" value="female" required>
+                        </div>
+                    </div>
+                    <label for="feedback"><strong>Feedback</strong></label>
+                    <br>
+                    <textarea class="input" id="feedback" name="feedback" cols="50" rows="5"
+                        placeholder="Please let us know how we can improve this website">
                 </textarea>
-                <div class="note">
-                    <p>By clicking Send, you agree to our <a href="#">Terms</a> and <a href="#">Conditions</a>, <a
-                            href="#">Privacy</a> and <a href="#">Cookies policy</a>. You may
-                        receive notifications from us and you can choose to cancel this at any time</p>
+                    <div class="note">
+                        <p>By clicking Send, you agree to our <a href="#">Terms</a> and <a href="#">Conditions</a>, <a
+                                href="#">Privacy</a> and <a href="#">Cookies policy</a>. You may
+                            receive notifications from us and you can choose to cancel this at any time</p>
+                    </div>
+                    <br>
+                    <div class="send-clear-buttons">
+                        <button type="submit">Send</button>
+                        <button type="reset">Clear</button>
+                    </div>
                 </div>
-                <br>
-                <div class="send-clear-buttons">
-                    <button type="submit">Send</button>
-                    <button type="reset">Clear</button>
-                </div>
-            </div>
             </form>
         </section>
     </main>
