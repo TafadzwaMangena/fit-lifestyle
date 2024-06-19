@@ -263,10 +263,8 @@ tr:nth-of-type(2n) {
 
 .signup-form h2, h3, .p-center {
     text-align: center;
-}
-
-.form-content {
-    
+    text-decoration-line: none;
+    padding-bottom: 10px;
 }
 
 .input {
@@ -321,11 +319,6 @@ button:hover {
     color: blueviolet;
     background-color: #fff;
 }
-
-
-
-
-
 
 .hide {
     display: none;
