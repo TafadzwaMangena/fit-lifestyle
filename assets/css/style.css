@@ -461,8 +461,8 @@ footer {
 
 }
 
-@media screen and (max-width:600px) {
-    .signup-page {
+@media screen and (max-width:780px) {
+    .signup-form {
         min-width: 280px;
     }
 
