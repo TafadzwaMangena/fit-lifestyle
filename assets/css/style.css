@@ -251,12 +251,18 @@ tr:nth-of-type(2n) {
     /* text-align: center; */
 }
 
-/* Adding opacity to form to make it more visible */
+
 .signup-form {
+    /* Adding opacity to form to make it more visible */
     background-color: rgba(110, 66, 151, 0.6);
     padding: 20px;
     box-shadow: 0 15px 20px #fff;
     display: block;
+    max-width: 700px;
+}
+
+.signup-form h2, h3 {
+    text-align: center;
 }
 
 .input {
@@ -311,6 +317,11 @@ button:hover {
     color: blueviolet;
     background-color: #fff;
 }
+
+
+
+
+
 
 .hide {
     display: none;
