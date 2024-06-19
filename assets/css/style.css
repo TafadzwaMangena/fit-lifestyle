@@ -367,6 +367,7 @@ button:hover {
 /* To make the buttons side to each other with gap between them*/
 .gender-buttons {
     display: contents;
+    padding-top: 10px;
 }
 
 .hide {
