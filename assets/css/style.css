@@ -288,18 +288,18 @@ h3,
 }
 
 .input {
-    width: 95%;
-    color: rgb(238, 234, 242);
-    font-weight: bold;
-    margin: 5px 0;
-}
-
-.input {
     height: 40px;
     width: 95%;
     padding: 0 10px;
     border-radius: 10px;
     border: 1px solid blueviolet;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.textarea {
+    display: block;
+    width: 100%;
 }
 
 .note {
