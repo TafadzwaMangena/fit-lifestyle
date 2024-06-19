@@ -261,8 +261,8 @@ tr:nth-of-type(2n) {
     border-radius: 50px;
 }
 
-.signup-form h2,
-h3,
+.signup-form, form > h2,
+form > h3,
 .p-center {
     text-align: center;
     text-decoration-line: none;
