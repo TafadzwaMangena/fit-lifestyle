@@ -335,10 +335,10 @@ button {
     background-color: blueviolet;
 }
 
-
 .send-clear-buttons {
     display: flex;
     justify-content: center;
+    /*To position the 2 buttons in center of form, solved via devtools */
     width: -webkit-fill-available;
 }
 
@@ -346,6 +346,11 @@ button:hover {
     border: 1px solid blueviolet;
     color: blueviolet;
     background-color: #fff;
+}
+
+/* To make the buttons side to each other with gap between them*/
+.gender-buttons {
+    display: contents;
 }
 
 .hide {
