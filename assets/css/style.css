@@ -458,7 +458,39 @@ footer {
     td:nth-of-type(5)::before {
         content: "snacks:";
     }
+
 }
+
+@media screen and (max-width:600px) {
+    .signup-page {
+        min-width: 280px;
+    }
+
+    .user-input-box {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .user-input-box:nth-child(2n) {
+        justify-content: space-between;
+    }
+
+    .gender-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .form-content {
+        max-height: 400px;
+        overflow: auto;
+    }
+
+    .form-content::-webkit-scrollbar {
+        width: 0;
+    }
+}
+
 
 /* Media query: tablets and larger (833px and up) */
 @media screen and (min-width: 833px) {
