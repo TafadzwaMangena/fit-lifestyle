@@ -265,6 +265,10 @@ tr:nth-of-type(2n) {
     text-align: center;
 }
 
+.form-content {
+    
+}
+
 .input {
     width: 95%;
     color: rgb(238, 234, 242);
