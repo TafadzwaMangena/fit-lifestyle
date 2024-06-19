@@ -304,17 +304,20 @@ h3,
 }
 
 .textarea {
-    display: flex;
+    /* Add display none as no need for feedback for now */
+    display: none;
     align-items: center;
     padding-top: 10px;
 }
 
+/* To use when textarea for feedback is displayed
 .feedback-space {
     border-radius: 10px;
     border: 1px solid blueviolet;
     margin: 5px 0;
     font-weight: bold;
 }
+    */
 
 /* placeholder {
     color: #000000;
