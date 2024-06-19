@@ -362,51 +362,7 @@ footer {
 
 }
 
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
-}
-
-/* Media query: tablets and larger (833px and up) */
-@media screen and (min-width: 833px) {
-
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
-        display: flex;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    .hero {
-        background-position: 50%;
-
-    }
-}
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    .menu a:hover {
-        border: 1px solid blueviolet;
-        color: blueviolet;
-        background-color: #fff;
-        font-weight: bold;
-    }
-}
-
-    /* Media query: large or landscape phones (576px and up) */
+    /* Media query: large or landscape phones (780px and up) */
     @media screen and (max-width: 780px) {
         th {
             display: none;
@@ -449,3 +405,39 @@ footer {
             content: "snacks:";
         }
     }
+
+    /* Media query: tablets and larger (833px and up) */
+@media screen and (min-width: 833px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .hero {
+        background-position: 50%;
+
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .menu a:hover {
+        border: 1px solid blueviolet;
+        color: blueviolet;
+        background-color: #fff;
+        font-style: italic;
+    }
+}
