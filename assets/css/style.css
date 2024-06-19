@@ -295,12 +295,18 @@ h3,
     border: 1px solid blueviolet;
     margin: 5px 0;
     font-weight: bold;
+    
 }
 
 .textarea {
     display: block;
     width: 100%;
+    padding: 20px 5px 5px 0;
 }
+
+/* placeholder {
+    color: #000000;
+} */
 
 .note {
     font-size: 14px;
@@ -329,9 +335,11 @@ button {
     background-color: blueviolet;
 }
 
+
 .send-clear-buttons {
     display: flex;
     justify-content: center;
+    width: -webkit-fill-available;
 }
 
 button:hover {
