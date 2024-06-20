@@ -114,7 +114,7 @@ main {
     display: flex;
     flex-direction: column;
 }
-
+/*page 1*/
 /* Hero section */
 .hero {
     background: url(../images/hero_image.webp) no-repeat center center/cover;
@@ -140,6 +140,9 @@ main {
 
 .motivation {
     padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .physical-benefits, .mental-benefits {
@@ -189,6 +192,7 @@ h3 {
     list-style-type: none;
 }
 
+/*Page 2*/
 .workout-routines {
     padding: 1rem 1rem;
 }
