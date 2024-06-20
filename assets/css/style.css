@@ -156,7 +156,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid blueviolet;
+    border: 3px solid rgb(30, 24, 37);
     padding: 10px 10px;
     width: 50%;
     margin-bottom: 5px;
