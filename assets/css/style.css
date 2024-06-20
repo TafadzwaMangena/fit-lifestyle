@@ -113,6 +113,9 @@ main {
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 /*page 1*/
 /* Hero section */
