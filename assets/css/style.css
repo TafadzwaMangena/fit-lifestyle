@@ -499,14 +499,15 @@ footer {
         width: 100%;
     }
 
-    .form-content {
+    /*Having scroll on mobile device might not be a good user exp */
+    /*.form-content {
         max-height: 400px;
         overflow: auto;
-    }
+    } 
 
     .form-content::-webkit-scrollbar {
         width: 0;
-    }
+    } */
 }
 
 
