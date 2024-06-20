@@ -167,6 +167,14 @@ h3 {
     text-decoration-line: underline;
 }
 
+.physical-benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid blueviolet;
+    padding: 10px 10px;
+  }
+
 .healthy-meals-benefits h2,
 h3 {
     text-decoration: solid;
