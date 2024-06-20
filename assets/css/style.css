@@ -499,6 +499,10 @@ footer {
         width: 100%;
     }
 
+    .signup-page {
+        background-position: 58%;
+    }
+
     /*Having scroll on mobile device might not be a good user exp */
     /*.form-content {
         max-height: 400px;
