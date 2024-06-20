@@ -152,6 +152,16 @@ main {
     text-align: center;
 }
 
+.physical-benefits, .mental-benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid blueviolet;
+    padding: 10px 10px;
+    width: 50%;
+    margin-bottom: 5px;
+  }
+
 .workout-benefits {
     letter-spacing: normal;
     display: inline-block;
@@ -166,15 +176,6 @@ h3 {
     text-align: left;
     text-decoration-line: underline;
 }
-
-.physical-benefits {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 1px solid blueviolet;
-    padding: 10px 10px;
-    width: 50%;
-  }
 
 .healthy-meals-benefits h2,
 h3 {
