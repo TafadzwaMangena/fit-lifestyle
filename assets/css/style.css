@@ -164,8 +164,10 @@ main {
   }
 
 .pb-img img, .mb-img img{
-    width: 250px;
+    width: 13em;
     padding: 1rem 0.25rem;
+    display: block;
+    object-fit: contain;
   }
 
 .workout-benefits {
@@ -178,6 +180,7 @@ main {
 .workout-pm-benefits, .healthy-meals-pm-benefits {
     display: flex;
     padding: 50px 0;
+    box-shadow: 0 15px 10px blueviolet;
 }
 
 .workout-benefits h2,
