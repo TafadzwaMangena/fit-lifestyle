@@ -162,8 +162,7 @@ main {
   }
 
 .pb-img img, .mb-img img{
-    height: 25vh;
-    width: auto;
+    width: 250px;
     padding: 1rem 0.25rem;
   }
 
