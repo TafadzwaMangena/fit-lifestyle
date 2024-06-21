@@ -199,6 +199,22 @@ h3 {
     text-decoration-line: underline;
 }
 
+.motivation>h2,
+.workout-benefits>h2,
+.healthy-meals-benefits>h2 {
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: normal;
+}
+
+.motivation>h2 {
+    margin-bottom: 25px;
+}
+
+.healthy-meals-benefits>h2 {
+    margin-top: 25px;
+}
+
 .physical-benefits ul {
     list-style-type: none;
 }
