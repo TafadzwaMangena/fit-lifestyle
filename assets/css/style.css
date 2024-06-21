@@ -174,7 +174,7 @@ main {
     flex-direction: column; */
 }
 
-.workout-pm-benefits {
+.workout-pm-benefits, .healthy-meals-pm-benefits {
     display: flex;
 }
 
