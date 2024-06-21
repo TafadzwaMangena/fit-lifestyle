@@ -176,6 +176,7 @@ main {
 
 .workout-pm-benefits, .healthy-meals-pm-benefits {
     display: flex;
+    padding: 50px 0;
 }
 
 .workout-benefits h2,
