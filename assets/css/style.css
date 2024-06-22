@@ -181,13 +181,6 @@ main {
     object-fit: contain;
 }
 
-/*.workout-benefits {
-    letter-spacing: normal;
-    display: inline-block;
-    /*flex direction - column to keep the content in div vertical 
-    flex-direction: column; 
-}*/
-
 .workout-pm-benefits,
 .healthy-meals-pm-benefits {
     display: flex;
@@ -452,13 +445,14 @@ footer {
     display: inline-block;
     align-items: center;
     text-align: center;
-    padding: 0px 28px;
+    padding: 2px 28px;
     font-size: 25px;
 }
 
 .social-media {
     width: 50%;
     justify-content: space-evenly;
+    padding-bottom: 7px;
 }
 
 .social-media li {
@@ -538,6 +532,23 @@ footer {
         height: auto;
     }
 
+    .pb-img, .mb-img {
+        width: auto;
+    }
+
+    .social-networks {
+        list-style-type: none;
+        font-size: 17px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .social-media li {
+        display: flex;
+        padding: 0 15px;
+    }
+
 }
 
 @media screen and (max-width:780px) {
@@ -608,5 +619,10 @@ footer {
         border: 1px solid blueviolet;
         color: blueviolet;
         background-color: #fff;
+    }
+
+    .social-networks a:hover {
+        border: 1px solid #fff;
+        background-color:blueviolet;
     }
 }
