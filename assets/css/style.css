@@ -159,6 +159,7 @@ main {
     border: 3px solid rgb(94, 77, 113);
     padding: 10px 10px;
     width: 50%;
+    /*To position the 2 divs at the center of the page*/
     margin: 0 10px;
 }
 
@@ -180,12 +181,12 @@ main {
     object-fit: contain;
 }
 
-.workout-benefits {
+/*.workout-benefits {
     letter-spacing: normal;
     display: inline-block;
     /*flex direction - column to keep the content in div vertical 
-    flex-direction: column; */
-}
+    flex-direction: column; 
+}*/
 
 .workout-pm-benefits,
 .healthy-meals-pm-benefits {
@@ -438,6 +439,7 @@ footer {
     align-items: center;
     padding: 0 2rem;
     text-align: center;
+    height: 5em;
 }
 
 /* Hide irrelevant h1 */
