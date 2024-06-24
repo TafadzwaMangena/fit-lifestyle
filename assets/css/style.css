@@ -422,6 +422,12 @@ button:hover {
     display: none;
 }
 
+.responsive-content {
+    text-align: center;
+    font-style: italic;
+    padding: 0 10px;
+}
+
 /* Footer */
 footer {
     background-color: blueviolet;
@@ -469,6 +475,7 @@ footer {
     display: inline-block;
 
 }
+
 
 /* Media query: large or landscape phones (780px and up) */
 @media screen and (max-width: 780px) {
