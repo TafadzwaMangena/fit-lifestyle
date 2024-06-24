@@ -150,6 +150,7 @@ main {
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .physical-benefits,
@@ -189,6 +190,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .monday,
@@ -303,6 +305,7 @@ tr:nth-of-type(2n) {
     background-color: rgb(204, 167, 239);
 }
 
+/* Page 4*/
 .signup-page {
     background-image: url("../images/sign_up_bg.webp");
     background-size: cover;
@@ -314,7 +317,6 @@ tr:nth-of-type(2n) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 20px;
     /* height: 100vh; */
     /* text-align: center; */
 }
@@ -327,6 +329,7 @@ tr:nth-of-type(2n) {
     display: block;
     max-width: 700px;
     border-radius: 50px;
+    margin-bottom: 20px;
 }
 
 .signup-form,
