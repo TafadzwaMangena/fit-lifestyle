@@ -505,7 +505,7 @@ footer {
 
 
 /* Media query: large or landscape phones (780px and up) */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
     th {
         display: none;
     }
@@ -566,7 +566,8 @@ footer {
         height: auto;
     }
 
-    .pb-img, .mb-img {
+    .pb-img,
+    .mb-img {
         width: auto;
     }
 
@@ -657,6 +658,6 @@ footer {
 
     .social-networks a:hover {
         border: 1px solid #fff;
-        background-color:blueviolet;
+        background-color: blueviolet;
     }
 }
