@@ -584,6 +584,11 @@ footer {
         padding: 0 15px;
     }
 
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media screen and (max-width:780px) {
