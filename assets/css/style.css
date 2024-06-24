@@ -547,30 +547,6 @@ footer {
         content: "snacks:";
     }
 
-    .workout-pm-benefits,
-    .healthy-meals-pm-benefits {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 30px;
-    }
-
-    .physical-benefits,
-    .mental-benefits {
-        width: 90%;
-        padding: 10px 5px;
-        flex-direction: column;
-        /*margin 0 to keep the 4 benefit divs in the middle otherwise they slightly go to the right*/
-        margin: 0;
-        margin-bottom: 40px;
-        height: auto;
-    }
-
-    .pb-img,
-    .mb-img {
-        width: auto;
-    }
-
     .social-networks {
         list-style-type: none;
         font-size: 17px;
@@ -664,5 +640,32 @@ footer {
     .social-networks a:hover {
         border: 1px solid #fff;
         background-color: blueviolet;
+    }
+}
+
+@media screen and (max-width: 1178px) {
+    .workout-pm-benefits,
+    .healthy-meals-pm-benefits {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .physical-benefits,
+    .mental-benefits {
+        width: 90%;
+        padding: 10px 5px;
+        flex-direction: column;
+        /*margin 0 to keep the 4 benefit divs in the middle otherwise they slightly go to the right*/
+        margin: 0;
+        margin-bottom: 40px;
+        height: auto;
+    }
+
+    .pb-img,
+    .mb-img {
+        width: auto;
     }
 }
