@@ -429,6 +429,10 @@ button:hover {
     padding: 0 10px;
 }
 
+.responsive-content img {
+    width: 100%;
+}
+
 /* Footer */
 footer {
     background-color: blueviolet;
