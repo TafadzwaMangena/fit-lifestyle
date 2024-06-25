@@ -6,27 +6,14 @@
 
  - #### External User's Goal;
   - Site uses are new to fitness and are interested in wokout routines and meal preps.
+
  - #### Site Owner's Goal;
   - The goal of the site is to provide a reliable source of information and encourage beginners to exercise and eat healthy.
+
  - #### Features Included;
   - Home workouts; Gym workouts,
   - Meal prepping,
   - Supporting images and social media links.
-
-    - #### First Time Visitor Goals
-        1. Text
-        2. Text
-        3. Text
-
-    - #### Returning Visitor Goals
-        1. Text
-        2. Text
-        3. Text
-
-    - #### Fequent User Goals
-        1. Text
-        2. Text
-        3. Text
 
 ## Design
 ## Technologies Used
@@ -42,10 +29,12 @@
  4. Git:
  5. Github:
  6. Balsamiq Frameworks:
- 7. Pixels.com:
+ 7. Pexels.com:
+ 8. Gimp
+ 9. looka.com
 
 ## Testing
-I will use Markup Validator and W3C CSS Validator Sevices to validate every page of the project and add the results below:
+I used Markup Validator and W3C CSS Validator Sevices to validate every page of the project. See results below:
  - W3C Makup Validator - Results
  - W3C CSS Validator - Results
 
@@ -58,21 +47,22 @@ Text
    - From the source section drop-down menu, select the Master Branch
    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - 
+The live link can be found [here](https://tafadzwamangena.github.io/fit-lifestyle/) 
 
 ## Credits
 ### Code
    - This project was ceated using a full template provided by Code Institute.
    - The README.md file was inspired by Code Institute with some changes.
    - MDN Web Docs, was used to test and validate the code.
+   - The meal prep page was inspired by Kevin Powell's Youtube channel.
 
 ### Content
    - Text
    - Text
 
 ### Media
-   - All images were downloaded from pixels.com
-   - Text
+   - All images were downloaded from pexels.com
+   - All images were converted to webp format using Gimp.
 
 ### Acknowledgements
    - My Mentor has been a geat help giving insightful feedback
