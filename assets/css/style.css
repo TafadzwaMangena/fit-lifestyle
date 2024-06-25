@@ -517,7 +517,6 @@ footer {
     }
 }
 
-
 /* Media query: large or landscape phones (780px and up) */
 @media screen and (max-width: 768px) {
     th {
@@ -577,6 +576,7 @@ footer {
     .menu {
         display: flex;
         justify-content: center;
+        font-size: 15px;
     }
 
 }
