@@ -124,6 +124,7 @@ main {
 /* Hero section */
 .hero {
     background: url(../images/hero_image.webp) no-repeat center center/cover;
+    background-color: blueviolet;
     background-position: 70%;
     height: 500px;
     width: 100%;
