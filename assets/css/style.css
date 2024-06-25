@@ -508,6 +508,15 @@ footer {
 
 }
 
+@media screen and (max-width: 360px) {
+    header h1 {
+        letter-spacing: normal;
+        text-align: center;
+        padding: 8px;
+        margin-right: 23px;
+    }
+}
+
 
 /* Media query: large or landscape phones (780px and up) */
 @media screen and (max-width: 768px) {
@@ -649,11 +658,12 @@ footer {
 }
 
 @media screen and (max-width: 1178px) {
+
     .workout-pm-benefits,
     .healthy-meals-pm-benefits {
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         padding-bottom: 30px;
     }
