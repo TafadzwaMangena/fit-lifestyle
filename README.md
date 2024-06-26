@@ -8,16 +8,16 @@ Our easy sign-up process ensures you can start your transformation effortlessly,
 
 ## User stories
 
- - #### External User's Goal;
-  - Site uses are new to fitness and are interested in wokout routines and meal preps.
+- #### External User's Goal;
+   - Site uses are new to fitness and are interested in wokout routines and meal preps.
 
- - #### Site Owner's Goal;
-  - The goal of the site is to provide a reliable source of information and encourage beginners to exercise and eat healthy.
+- #### Site Owner's Goal;
+   - The goal of the site is to provide a reliable source of information and encourage beginners to exercise and eat healthy.
 
- - #### Features Included;
-  - Home workouts; Gym workouts,
-  - Meal prepping,
-  - Supporting images and social media links.
+- #### Features Included;
+   - Home workouts; Gym workouts,
+   - Meal prepping,
+   - Supporting images and social media links.
 
 ### Features
 - ### Logo and Navigation Bar 
@@ -87,6 +87,7 @@ Text ---------------------------------------------------------------
 The live link can be found [here](https://tafadzwamangena.github.io/fit-lifestyle/) 
 
 ## Credits
+
 ### Code
    - This project was ceated using a full template provided by Code Institute.
    - The README.md file was inspired by Code Institute with some changes.
@@ -98,27 +99,13 @@ The live link can be found [here](https://tafadzwamangena.github.io/fit-lifestyl
    - Text
 
 ### Media
-   - All images were downloaded from pexels.com
+   - All images were downloaded from [pexels.com](https://www.pexels.com/)
    - All images were converted to webp format using Gimp.
+   - All images were compressed using [tinypng.com](https://tinypng.com/)
+   - The Fit Lifestyle logo and favicon was designed using [looka.com](https://looka.com/)
 
 ### Acknowledgements
-   - My Mentor has been a geat help giving insightful feedback
+   - My wife was supportive thoughout the building of the website and gave me ideas.
+   - My Mentor has been a geat help giving insightful feedback.
    - Tutor support at Code Institude.
    - Slack community at Code Institude.
-
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
