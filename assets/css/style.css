@@ -265,6 +265,11 @@ h3 {
     padding: 10px 0;
 }
 
+.workout-routines h2 {
+    text-align: center;
+    letter-spacing: normal;
+}
+
 video {
     width: 200px;
 }
@@ -536,7 +541,7 @@ footer {
     header h1 {
         letter-spacing: normal;
         text-align: center;
-        padding: 8px;
+        padding-left: 12px;
         margin-right: 23px;
     }
 }
