@@ -6,16 +6,7 @@ Discover your ultimate fitness journey with Fit Lifestyle, the perfect online gu
 
 Our easy sign-up process ensures you can start your transformation effortlessly, with expert tips and personalized support every step of the way. Join Fit Lifestyle today and take the first step towards a fitter, healthier you!
 
-
-
-### Features
-- ### Logo and Navigation Bar 
-   - text
-
-- ### Hero Image
-   - text
-
-- ## User stories
+## User stories
 
  - #### External User's Goal;
   - Site uses are new to fitness and are interested in wokout routines and meal preps.
@@ -27,6 +18,39 @@ Our easy sign-up process ensures you can start your transformation effortlessly,
   - Home workouts; Gym workouts,
   - Meal prepping,
   - Supporting images and social media links.
+
+### Features
+- ### Logo and Navigation Bar 
+   - The logo and navigation bar are displayed in all pages that is Home page, Workout Routines page, Meal prep page as well as the Sign up page. The are fixed in one position on all the pages so the user can easily navigate throughout the website. 
+   - The Fit Lifestyle logo and name are linked to the home page, clicking on either in any of the pages will re-direct the user to the home page.
+   - The navigation bar is fully responsive.
+
+- ### Hero Section
+   - The hero section is an eye captivating area to catch the eye of the user upon loading the website.
+   - This section is loaded with an image of a man exercising in his workout gear and a captivating text "Having a healthy life is having a good life" meant to encourage the user.
+
+- ### Motivation Section
+   - The section is meant  to give the user motivation to start a healthy and a Fit Lifestyle by giving physical and mental benefits for working out as well as physical and mental benefits of having healthy meals.
+
+- ### The footer
+   - The footer section is placed at the bottom of each page with encouraging words from Fred Devito as well as links to various Fit Lifestyle social media links.
+   - This is important to the user as it challenges them to archive their goals and to connect with Fit Lifestyle on social media to learn more.
+
+- ### The Workout Routine Page
+   - The workout routine page aims to give the user an effective weekly workout routine incoperating cardio, fitness and rest days routine.
+   - The workout schedule is drawn by Jacklyn Romano, CPT, a certifies physical therapist.
+
+- ### The Meal Prep Page
+   - This page is meant to give the user a balanced diet of a 7 day meal plan that is affordable and help the user reach their fitness goals.
+   - The 8 healthy and effective diets is broken down into 7 days of the week and comprises of breakfast, lunch, evening meal and snacks.
+
+- ### The Sign Up Page
+   - This page is meant to help the user to sign up and start their Fit Lifestyle journey. The sign up form collects information life the age of the user as well as their goals.
+   - In addition, the user's names and contact information will also be collected before submitting the form. Also the form comprises of terms and conditions at the ends.
+
+- ### Features Left to Implement
+   - The idea is to make the user encouraged to workout and get committed. I intend to add more pictures and videos to the website to guide the user to properly workout and eat. 
+   - Also I intend to link a page of recipies.
 
 ## Design
 ## Technologies Used
@@ -52,7 +76,7 @@ I used Markup Validator and W3C CSS Validator Sevices to validate every page of 
  - W3C CSS Validator - Results
 
 ### Unfixed Bugs
-Text
+Text ---------------------------------------------------------------
 
 ## Deployment
  - The site was deployed to GitHub pages. The steps to deploy are as follows:
