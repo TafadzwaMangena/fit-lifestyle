@@ -650,8 +650,8 @@ footer {
         background-color: #fff;
     }
 
-    .social-networks a:hover {
-        background-color: blueviolet;
+    i:hover {
+        color: grey;
     }
 }
 
