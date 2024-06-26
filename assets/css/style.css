@@ -260,6 +260,11 @@ h3 {
     list-style-type: none;
 }
 
+.workout-routines p,
+.workout-routines li {
+    padding: 10px 0;
+}
+
 video {
     width: 200px;
 }
