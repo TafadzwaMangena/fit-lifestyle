@@ -1,6 +1,19 @@
 # FIT LIFESTYLE
 
 ## User Experience (UX)
+## Fit Lifestyle
+Discover your ultimate fitness journey with Fit Lifestyle, the perfect online guide for beginners eager to embrace a healthier lifestyle. Explore our 7-day workout routines and budget-friendly meal prep plans, designed to make healthy living accessible and enjoyable.
+
+Our easy sign-up process ensures you can start your transformation effortlessly, with expert tips and personalized support every step of the way. Join Fit Lifestyle today and take the first step towards a fitter, healthier you!
+
+
+
+### Features
+- ### Logo and Navigation Bar 
+   - text
+
+- ### Hero Image
+   - text
 
 - ## User stories
 
