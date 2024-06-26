@@ -264,6 +264,8 @@ video {
     width: 200px;
 }
 
+/*Page 3*/
+
 .meal-preps {
     padding: 1rem;
 }
@@ -640,6 +642,21 @@ footer {
     .hero {
         background-position: 50%;
 
+    }
+
+    .tuesday-videos,
+    .wednesday-videos,
+    .saturday-videos {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .workout-vid {
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+        font-weight: bolder;
     }
 }
 
