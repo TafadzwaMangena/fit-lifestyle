@@ -264,6 +264,23 @@ video {
     width: 200px;
 }
 
+.tuesday-videos,
+.wednesday-videos,
+.saturday-videos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.workout-vid {
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    font-weight: bolder;
+    padding: 25px;
+}
+
 /*Page 3*/
 
 .meal-preps {
@@ -649,6 +666,7 @@ footer {
     .saturday-videos {
         display: flex;
         justify-content: space-around;
+        flex-direction: row;
         padding: 10px;
     }
 
