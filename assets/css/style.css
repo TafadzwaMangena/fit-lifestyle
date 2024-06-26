@@ -544,6 +544,10 @@ footer {
         padding-left: 12px;
         margin-right: 23px;
     }
+
+    .active {
+        padding: 0;
+    }
 }
 
 /* Media query: large or landscape phones (780px and up) */
