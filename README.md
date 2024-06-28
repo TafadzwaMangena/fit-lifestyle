@@ -94,9 +94,25 @@ I used Markup Validator and W3C CSS Validator Sevices to validate every page of 
  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. See below the results of each page.
 
       - Home Page
+
+         ![alt text](assets/markdown-images/lighthouse1.webp)
+
       - Workout Routine Page
+
+         ![alt text](assets/markdown-images/lighthouse2.webp)
+
       - Meal Prep Page
+
+         ![alt text](assets/markdown-images/lighthouse3.webp)
+
       - Sign Up Page
+
+         ![alt text](assets/markdown-images/lighthouse4.webp)
+      
+      - Responsive Page
+
+         ![alt text](assets/markdown-images/lighthouse5.webp)
+
 
 ## Unfixed Bugs
  - All discovered bugs were fixed. In case any bugs are discovered please contact us on any of the social media platforms on the footer.
