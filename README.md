@@ -88,6 +88,12 @@ Our easy sign-up process ensures you can start your transformation effortlessly,
  9. looka.com
 
 ## Testing
+ - I tested this website in Chrom, Safari and Firefox to make sure avery page works and is responsive.
+ - I confirmed all internal links work and all external links work being opened on a new tab.
+ - I tested that the form works, all information is required in every input in it's format, e.g email should be similar to john@doe.com and phone number requires digits. The send and clear buttons work and once the send button is pressed, a responsive thank you page pops up.
+ - I viewed the website in different screen sizes, small mobiles, large mobiles, tablets and laptops (using devtools) to ensure the text and images, colors etc are all clearly visible in different screen sizes. 
+
+## Validator Testing
 I used Markup Validator and W3C CSS Validator Sevices to validate every page of the project, no errors were found.
  - W3C Makup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftafadzwamangena.github.io%2Ffit-lifestyle%2Findex.html)
  - W3C CSS Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftafadzwamangena.github.io%2Ffit-lifestyle%2Findex.html)
