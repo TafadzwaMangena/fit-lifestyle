@@ -679,7 +679,8 @@ footer {
 
     .tuesday-videos,
     .wednesday-videos,
-    .saturday-videos {
+    .saturday-videos,
+    .sunday-videos {
         display: flex;
         justify-content: space-around;
         flex-direction: row;
