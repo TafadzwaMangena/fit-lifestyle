@@ -53,6 +53,7 @@ Our easy sign-up process ensures you can start your transformation effortlessly,
    - Also I intend to link a page of recipies.
 
 ## Design
+
 ## Technologies Used
 
 ### Languages Used
@@ -76,12 +77,12 @@ I used Markup Validator and W3C CSS Validator Sevices to validate every page of 
  - W3C CSS Validator - Results
 
 ### Unfixed Bugs
-Text ---------------------------------------------------------------
+ - All discovered bugs were fixed. In case any bugs are discovered please contact us on any of the social media platforms on the footer.
 
 ## Deployment
  - The site was deployed to GitHub pages. The steps to deploy are as follows:
-   - In the GitHub repository, navigate to the Settings tab
-   - From the source section drop-down menu, select the Master Branch
+   - In the GitHub repository, navigate to the Settings tab,
+   - From the source section drop-down menu, select the Master Branch,
    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found [here](https://tafadzwamangena.github.io/fit-lifestyle/) 
@@ -95,8 +96,9 @@ The live link can be found [here](https://tafadzwamangena.github.io/fit-lifestyl
    - The meal prep page was inspired by Kevin Powell's Youtube channel.
 
 ### Content
-   - Text
-   - Text
+   - The information on the home page was taken from chatgpt.
+   - The workout routines were taken from [health.com](https://www.health.com/)
+   - The meal preps were taken from the British Health Foundation, [bhf.org.uk](https://www.bhf.org.uk/informationsupport/heart-matters-magazine/nutrition/easy-healthy-meals)
 
 ### Media
    - All images were downloaded from [pexels.com](https://www.pexels.com/)
