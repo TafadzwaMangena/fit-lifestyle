@@ -97,7 +97,7 @@ Our easy sign-up process ensures you can start your transformation effortlessly,
 I used Markup Validator and W3C CSS Validator Sevices to validate every page of the project, no errors were found.
  - W3C Makup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftafadzwamangena.github.io%2Ffit-lifestyle%2Findex.html)
  - W3C CSS Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftafadzwamangena.github.io%2Ffit-lifestyle%2Findex.html)
- - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. See below the results of each page.
+ - Accessibility - I confirmed that the colors and fonts chosen are easy to read and accessible (in all pages) by running it through lighthouse in devtools. See below the results of each page.
 
       - Home Page
 
