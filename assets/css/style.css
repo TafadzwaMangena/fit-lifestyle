@@ -80,7 +80,6 @@ header img {
 
 /* Navbar styles with dropdown toggle */
 nav {
-
     position: absolute;
     background-color: blueviolet;
     width: 100%;
@@ -183,26 +182,6 @@ main {
     object-fit: contain;
 }
 
-.workout-routines {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.monday,
-.tuesday,
-.wednesday,
-.thursday,
-.friday,
-.saturday,
-.sunday {
-    padding: 50px 0;
-}
-
 .workout-pm-benefits,
 .healthy-meals-pm-benefits {
     display: flex;
@@ -252,11 +231,28 @@ h3 {
 
 /*Page 2*/
 .workout-routines {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
     padding: 1rem 1rem;
 }
 
 .workout-routines ul {
     list-style-type: none;
+}
+
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday,
+.saturday,
+.sunday {
+    padding: 50px 0;
 }
 
 .workout-routines p,
@@ -374,7 +370,6 @@ form>h3,
     justify-content: space-between;
 }
 
-
 .user-input-box:nth-child(2n) {
     justify-content: end;
 }
@@ -399,7 +394,6 @@ form>h3,
     border: 1px solid blueviolet;
     margin: 5px 0;
     font-weight: bold;
-
 }
 
 .textarea {
@@ -625,7 +619,6 @@ footer {
 
 /* Media query: tablets and larger (833px and up) */
 @media screen and (min-width: 833px) {
-
     /* Header */
     nav {
         display: block;
@@ -679,7 +672,6 @@ footer {
 }
 
 @media screen and (max-width: 1178px) {
-
     .workout-pm-benefits,
     .healthy-meals-pm-benefits {
         display: flex;
