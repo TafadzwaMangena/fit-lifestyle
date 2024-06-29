@@ -117,7 +117,6 @@ main {
     width: 100%;
     justify-content: center;
     align-items: center;
-    /*padding-bottom: 30px;*/
 }
 
 /*page 1*/
@@ -294,7 +293,6 @@ video {
 }
 
 /*Page 3*/
-
 .meal-preps {
     padding: 1rem;
 }
@@ -316,7 +314,6 @@ caption,
 td,
 th {
     padding: 1rem;
-
 }
 
 caption {
@@ -349,8 +346,6 @@ tr:nth-of-type(2n) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* height: 100vh; */
-    /* text-align: center; */
 }
 
 .signup-form {
@@ -414,19 +409,6 @@ form>h3,
     padding-top: 10px;
 }
 
-/* To use when textarea for feedback is displayed
-.feedback-space {
-    border-radius: 10px;
-    border: 1px solid blueviolet;
-    margin: 5px 0;
-    font-weight: bold;
-}
-    */
-
-/* placeholder {
-    color: #000000;
-} */
-
 .note {
     font-size: 14px;
     font-style: italic;
@@ -447,7 +429,6 @@ form>h3,
 button {
     margin: 5px 10px;
     padding: 15px;
-    /* width: 100%; */
     font-size: 15px;
     border-radius: 10px;
     border: 1px solid #fff;
@@ -639,16 +620,6 @@ footer {
     .signup-page {
         background-position: 58%;
     }
-
-    /*Having scroll on mobile device might not be a good user exp */
-    /*.form-content {
-        max-height: 400px;
-        overflow: auto;
-    } 
-
-    .form-content::-webkit-scrollbar {
-        width: 0;
-    } */
 }
 
 
