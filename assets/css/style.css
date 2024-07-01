@@ -396,30 +396,6 @@ form>h3,
     font-weight: bold;
 }
 
-.textarea {
-    /* Add display none as no need for feedback for now */
-    display: none;
-    align-items: center;
-    padding-top: 10px;
-}
-
-.note {
-    font-size: 14px;
-    font-style: italic;
-    padding: 10px;
-    text-align: center;
-}
-
-.note a {
-    text-decoration: none;
-    color: bisque;
-}
-
-.note a:hover {
-    text-decoration: underline;
-    color: blue;
-}
-
 button {
     margin: 5px 10px;
     padding: 15px;
