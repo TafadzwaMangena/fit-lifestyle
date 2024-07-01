@@ -490,20 +490,61 @@ footer {
 
 }
 
-@media screen and (max-width: 430px) {
-    header h1 {
-        letter-spacing: normal;
-        text-align: center;
-        padding-left: 12px;
-        margin-right: 23px;
+/* Media query: large screens (max 1178px) */
+@media screen and (max-width: 1178px) {
+    .workout-pm-benefits,
+    .healthy-meals-pm-benefits {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
     }
 
-    .active {
-        padding: 0;
+    .physical-benefits,
+    .mental-benefits {
+        width: 90%;
+        padding: 10px 5px;
+        flex-direction: column;
+        /*margin 0 to keep the 4 benefit divs in the middle otherwise they slightly go to the right*/
+        margin: 0;
+        margin-bottom: 40px;
+        height: auto;
+    }
+
+    .pb-img,
+    .mb-img {
+        width: auto;
     }
 }
 
-/* Media query: large or landscape phones (780px and up) */
+/* Media query: tablets and large screens (max 780px) */
+@media screen and (max-width:780px) {
+    .signup-form {
+        min-width: 280px;
+    }
+
+    .user-input-box {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .user-input-box:nth-child(2n) {
+        justify-content: space-between;
+    }
+
+    .gender-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .signup-page {
+        background-position: 58%;
+    }
+}
+
+/* Media query: large or landscape phones (max 768px) */
 @media screen and (max-width: 768px) {
     th {
         display: none;
@@ -567,33 +608,19 @@ footer {
 
 }
 
-@media screen and (max-width:780px) {
-    .signup-form {
-        min-width: 280px;
+/* Large devices laptops and desktops (min 992px) */
+@media screen and (min-width: 992px) {
+    .menu a:hover {
+        color: blueviolet;
+        background-color: #fff;
     }
 
-    .user-input-box {
-        margin-bottom: 10px;
-        width: 100%;
-    }
-
-    .user-input-box:nth-child(2n) {
-        justify-content: space-between;
-    }
-
-    .gender-buttons {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .signup-page {
-        background-position: 58%;
+    i:hover {
+        color: grey;
     }
 }
 
-
-/* Media query: tablets and larger (833px and up) */
+/* Media query: tablets and larger (min 833px) */
 @media screen and (min-width: 833px) {
     /* Header */
     nav {
@@ -635,41 +662,16 @@ footer {
     }
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    .menu a:hover {
-        color: blueviolet;
-        background-color: #fff;
+/* Media query: small phones or screens (max 430px) */
+@media screen and (max-width: 430px) {
+    header h1 {
+        letter-spacing: normal;
+        text-align: center;
+        padding-left: 12px;
+        margin-right: 23px;
     }
 
-    i:hover {
-        color: grey;
-    }
-}
-
-@media screen and (max-width: 1178px) {
-    .workout-pm-benefits,
-    .healthy-meals-pm-benefits {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 30px;
-    }
-
-    .physical-benefits,
-    .mental-benefits {
-        width: 90%;
-        padding: 10px 5px;
-        flex-direction: column;
-        /*margin 0 to keep the 4 benefit divs in the middle otherwise they slightly go to the right*/
-        margin: 0;
-        margin-bottom: 40px;
-        height: auto;
-    }
-
-    .pb-img,
-    .mb-img {
-        width: auto;
+    .active {
+        padding: 0;
     }
 }
