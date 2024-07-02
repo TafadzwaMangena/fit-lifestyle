@@ -119,9 +119,29 @@ Our easy sign-up process ensures you can start your transformation effortlessly,
 
 ## Validator Testing
 I used Markup Validator and W3C CSS Validator Sevices to validate every page of the project, no errors were found.
+
+### HTML
  - W3C Makup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftafadzwamangena.github.io%2Ffit-lifestyle%2Findex.html)
+
+      - #### Home Page
+
+      - #### Workout Routines Page
+
+      - #### Meal Prep Page
+
+      - #### Sign-Up Page
+
+      - #### Response Page
+
+### CSS
  - W3C CSS Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftafadzwamangena.github.io%2Ffit-lifestyle%2Findex.html)
- - Accessibility - I confirmed that the colors and fonts chosen are easy to read and accessible (in all pages) by running it through lighthouse in devtools. See below the results of each page.
+  - Direct input results
+
+
+  ### Lighthouse Report
+ - Accessibility - I confirmed that the colors and fonts chosen are easy to read and accessible (in all pages) by running it through lighthouse in devtools. 
+ - Due to images and videos, the performance was lower however for visual representation I decided to keep the displayed images and videos.
+ - See below the results of each page.
 
       - Home Page
 
@@ -143,8 +163,9 @@ I used Markup Validator and W3C CSS Validator Sevices to validate every page of 
 
          ![Responsive Page Lighthouse Results](assets/markdown-images/lighthouse5.webp)
 
+---
 
-## Unfixed Bugs
+## Bugs
  - All discovered bugs were fixed. In case any bugs are discovered please contact us on any of the social media platforms on the footer.
 
 ## Deployment
