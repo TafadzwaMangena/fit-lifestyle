@@ -219,13 +219,23 @@ I used Markup Validator and W3C CSS Validator Sevices to validate every page of 
 
   - Home Page
 
+![Home Page Lighthouse Report](assets/markdown-images/lighthouse1.webp)
+
   - Workout Routine Page
+
+![Workout Routine Page Lighthouse Report](assets/markdown-images/lighthouse2.webp)
 
   - Meal Prep Page
 
+![Meal Prep Page Lighthouse Report](assets/markdown-images/lighthouse3.webp)
+
   - Sign Up Page
 
-  - Responsive Page
+![Sing-Up Page Lighthouse Report](assets/markdown-images/lighthouse4.webp)
+
+  - Response Page
+
+![Response Page Lighthouse Report](assets/markdown-images/lighthouse5.webp)
 
 ---
 
