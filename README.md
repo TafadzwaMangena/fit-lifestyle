@@ -158,16 +158,16 @@ The site can be accessed using this link, [Fit Lifestyle](https://tafadzwamangen
 - I tested this website in Chrome, Microsoft Edge, Opera and Firefox to make sure avery page works and is responsive.
 
   - #### Chrome
-  <video controls src="assets/markdown-videos/chrome-responsive.mp4" title="Chrome responsiveness test on different screens"></video>
+  https://github.com/TafadzwaMangena/fit-lifestyle/assets/141625148/a45e5b77-dafc-49b2-b043-8b49c614d180
 
   - #### Microsoft Edge
-  <video controls src="assets/markdown-videos/ms-edge-responsive.mp4" title="Microsoft Edge responsiveness test on different screens"></video>
+  https://github.com/TafadzwaMangena/fit-lifestyle/assets/141625148/7186baa6-841f-40bf-935c-9851033035ed
 
   - #### Opera
-  <video controls src="assets/markdown-videos/opera-responsive.mp4" title="Opera responsiveness test on different screens"></video>
+  https://github.com/TafadzwaMangena/fit-lifestyle/assets/141625148/4ee7af8e-58e1-428b-a41e-e4989c6c0e2e
 
   - #### Firefox
-  <video controls src="assets/markdown-videos/firefox-responsive.mp4" title="FireFox responsiveness test on different screens"></video>
+  https://github.com/TafadzwaMangena/fit-lifestyle/assets/141625148/20438b4e-72af-44fd-8542-553e5b897d26
 
 
 ### Manual Testing
